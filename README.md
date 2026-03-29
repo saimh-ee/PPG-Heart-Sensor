@@ -4,7 +4,7 @@ A custom KiCad PCB developed as an extension of a UBC ENGR 352 Microelectronics 
 
 ## Overview
 
-This project is based on a PPG sensing approach that uses an infrared emitter and photodiode to detect pulse-related changes optically. In the course labs, the system was developed through simulation and breadboard testing, while this repository focuses on the PCB design, supporting simulation files, fabrication outputs, and project visuals. The lab sequence describes the PPG sensor as operating from a 5 V USB supply and building from an optical detector and transimpedance amplifier into later signal-conditioning and detection stages. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+This project is based on a PPG sensing approach that uses an infrared emitter and photodiode to detect pulse-related changes optically. The original course work focused on simulation and breadboard prototyping, while this repository focuses on the PCB design, supporting simulation files, fabrication outputs, and project visuals.
 
 ## Main Component
 
