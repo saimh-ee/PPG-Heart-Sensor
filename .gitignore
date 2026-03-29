@@ -1,0 +1,10 @@
+*.kicad_prl
+fp-info-cache
+*-backups/
+*_backups/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.raw
+*.log
