@@ -1,23 +1,31 @@
 # PPG Heart Sensor PCB
 
-A PPG heart-rate sensor PCB designed in KiCad as a hardware extension of an ENGR 352 Microelectronics II project. The original project was simulated and prototyped on breadboard, and this PCB was created to turn that design into a cleaner final implementation.
+A custom KiCad PCB developed as an extension of a UBC ENGR 352 Microelectronics II photoplethysmography (PPG) heart-rate sensing project. The original course work focused on simulation and breadboard prototyping, and this PCB was designed to turn that work into a cleaner hardware implementation.
 
 ## Overview
-- KiCad schematic and PCB design
-- LTspice simulation
-- Breadboard prototype
-- PCB fabrication files
+
+This project is based on a PPG sensing approach that uses an infrared emitter and photodiode to detect pulse-related changes optically. In the course labs, the system was developed through simulation and breadboard testing, while this repository focuses on the PCB design, supporting simulation files, fabrication outputs, and project visuals. The lab sequence describes the PPG sensor as operating from a 5 V USB supply and building from an optical detector and transimpedance amplifier into later signal-conditioning and detection stages. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
 
 ## Main Component
+
 - MCP601 op-amp
 
-## Current Status
-- Simulation completed
-- Breadboard prototype completed
-- PCB designed and submitted for fabrication
-- Final PCB bring-up pending board arrival
+## Repository Contents
 
-## Images
+- **Hardware/**: KiCad schematic, PCB, project file, and footprint library
+- **Simulation/**: LTspice simulation file
+- **Fabrication/**: manufacturing package used for PCB ordering
+- **Docs/**: schematic image, PCB layout, 3D render, and breadboard prototype photos
+
+## Current Status
+
+- LTspice simulation completed
+- Breadboard prototype completed
+- PCB designed in KiCad
+- Fabrication files generated and submitted
+- Final PCB assembly and hardware validation pending board arrival
+
+## Project Images
 
 ### 3D Render
 ![3D Render](Docs/3D-Render.png)
@@ -31,3 +39,13 @@ A PPG heart-rate sensor PCB designed in KiCad as a hardware extension of an ENGR
 ### Breadboard Prototype
 ![Breadboard Prototype 1](Docs/Breadboard_1.jpg)
 ![Breadboard Prototype 2](Docs/BreadBoard_2.jpeg)
+
+## Notes
+
+This repository documents both the original prototype stage and the PCB design work completed afterward. The PCB was created as an extra step beyond the base lab requirement in order to package the design into a more polished hardware form.
+
+## Tools Used
+
+- KiCad
+- LTspice
+- Git / GitHub
