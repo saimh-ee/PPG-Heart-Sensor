@@ -30,4 +30,4 @@ A PPG heart-rate sensor PCB designed in KiCad as a hardware extension of an ENGR
 
 ### Breadboard Prototype
 ![Breadboard Prototype 1](Docs/Breadboard_1.jpg)
-![Breadboard Prototype 2](Docs/BreadBoard_2.jpg)
+![Breadboard Prototype 2](Docs/BreadBoard_2.jpeg)
